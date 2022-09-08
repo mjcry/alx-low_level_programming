@@ -3,8 +3,7 @@
 
 int main (void)
 {
- 	puts("Programming is like building a multilingual puzzle\n");	
+	/* int main (void) is the main funcyion and and we use puts() as the print function */ 
+	puts("\"Programming is like building a multilingual puzzle\n");	
 	return 0;
-}
-
-
+} 
