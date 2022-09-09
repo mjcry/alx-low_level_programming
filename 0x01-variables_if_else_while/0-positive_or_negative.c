@@ -4,6 +4,12 @@
 
 /* betty style doc for function main goes there */
 
+/* int main - main Entry point */
+
+/* return - return always 0 (Success) */
+
+/* int - declares the integer that is n */
+
 /**
 * if - num is greater than 0 printf
 *
