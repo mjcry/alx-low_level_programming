@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include <stdio.h> 
 /**
- *
  * main - main entry functions
  *
  * return: Return to zero
@@ -8,9 +7,11 @@
  */
 int main(void)
 {
-	int num = 0;
+	int num1; 
 	
-	for(num <= 9; ++num;);
-		printf("%d\n", num);
+	for(num1 = 0; num1 <= 9; ++num1);
+		printf("%d", num1);
+
+	printf("\n");
 	return(0);
 }	
