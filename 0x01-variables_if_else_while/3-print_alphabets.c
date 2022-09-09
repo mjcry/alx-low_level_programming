@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry fuction 
+ * main - Entry fuction
  *
- * return: Return alphabet
- *
+ * Return: Always return 0
  */
 int main(void)
 {
@@ -27,4 +26,3 @@ int main(void)
 	putchar(10);
 	return (0);
 }
-
