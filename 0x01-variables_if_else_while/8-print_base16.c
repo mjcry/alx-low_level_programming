@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-	int hex;
-
-	hex = 0;
+	int hex = 0;
+	
 	while (hex < 16)
 	{
 		if(hex <= 9)
