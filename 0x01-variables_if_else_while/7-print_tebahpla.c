@@ -2,15 +2,13 @@
 /**
  * main - main fuction entry to the code
  *
- * return must return to return 
- *
+ * return must: end program
  */
-int main(0)
+int main(void)
 {
 	char az;
 
-	az = z;
-	for (z >= a; ++az)
+	for (az = 'z'; az >= 'a'; --az)
 		putchar(az);
 	putchar(10);
 	return (0);
