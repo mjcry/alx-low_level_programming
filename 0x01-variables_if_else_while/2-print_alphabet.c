@@ -1,11 +1,8 @@
 #include <stdio.h>
 /**
-* main - entry functions
+* main - main function
 *
-* char - call the char type for alphabet
-*
-* while - to repeat the type till we get all the alphabete
-*
+* Return: End the program
 */
 int main(void)
 {
@@ -17,6 +14,6 @@ int main(void)
 		++alpha;
 	}
 	putchar(10);
-	
-	return(0);
-}	
+
+	return (0);
+}
