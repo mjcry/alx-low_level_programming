@@ -1,18 +1,28 @@
 #include <stdio.h>
 /**
- * main - entry main fuction
+ * include <stdio.h> - the header for the file
  *
- * int - integer is called as variable caleled num
+ * main - entry function for the program
+ *
+ * int main(void)- entry main fuction
+ *
+ * int num - integer is called as variable caleled num
  *
  * while - to repeat the numbers till we get 9
  *
  * putchar - used to decaler number and to print it out
  *
+ * putchar(',')- to make space between the charather
+ *
+ * putchar(' ') - to make a space
+ *
  * if - if the number is inverse and = 9 the output
  *
  * num++ - is a statement
  *
- * return - return to 0 t0 9 decimals (sucess)
+ * putchar(10) - the output of the whileblock
+ *
+ * Return: return and end program
  */
 int main(void)
 {

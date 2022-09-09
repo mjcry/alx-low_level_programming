@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	char low;
+	char low = 97;
 	
-	low = 97;
 	while (low <= 122)
 	{
-		if (low != 101 && low != 133)
+		if (low != 101 && low != 113)
 		{
 			putchar(low);
 		}

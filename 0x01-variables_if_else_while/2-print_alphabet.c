@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-**/
-*
+/**
 * main - entry functions
 *
 * char - call the char type for alphabet
@@ -11,15 +9,14 @@
 */
 int main(void)
 {
-	char alpha;
-	
-	alpha = 97;
+	char alpha = 97;
 
-	while (1 <= 122)
+	while (alpha <= 122)
 	{
-		putchar(1);
-		++1;
+		putchar(alpha);
+		++alpha;
 	}
 	putchar(10);
-}
+	
 	return(0);
+}	

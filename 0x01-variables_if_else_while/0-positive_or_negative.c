@@ -1,15 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-
-/* int main - main Entry point */
-
-/* return - return always 0 (Success) */
-
-/* int - declares the integer that is n */
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
 * if - num is greater than 0 printf
 *
@@ -23,20 +14,22 @@
 */
 int main(void)
 {
-	int n;
+	int n;	
 	srand(time(0));
-	n = rand(void) - RAND_MAX / 2;
+	
+	n = rand() - RAND_MAX / 2;
+	
 	if (n > 0)
-	{
-	printf("Your Number is postive %d\n", n);
+	{	
+		printf("%d is postive\n", n);
 	}
 	else if (n == 0)
 	{
-	printf("This is zero %d\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-	printf("The Number is a negative %d\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
