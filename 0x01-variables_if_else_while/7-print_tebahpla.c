@@ -2,7 +2,7 @@
 /**
  * main - main fuction entry to the code
  *
- * return must: end program
+ * Return: Return must end program
  */
 int main(void)
 {

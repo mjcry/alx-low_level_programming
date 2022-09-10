@@ -1,7 +1,5 @@
 #include <stdio.h>
 /**
- * include <stdio.h> - the header for the file
- *
  * main - entry function for the program
  *
  * int main(void)- entry main fuction
@@ -22,7 +20,7 @@
  *
  * putchar(10) - the output of the whileblock
  *
- * Return: return and end program
+ * Return: Return and end program
  */
 int main(void)
 {

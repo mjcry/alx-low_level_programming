@@ -1,18 +1,16 @@
 #include <stdio.h>
 /**
- *
  * main - entry main funtions
  *
- * return: return to zero (success)
- *
+ * Return: Return to zero (success)
  */
 int main(void)
 {
 	int hex = 0;
-	
+
 	while (hex < 16)
 	{
-		if(hex <= 9)
+		if (hex <= 9)
 		{
 			putchar(hex + '0');
 		}
@@ -23,5 +21,5 @@ int main(void)
 		++hex;
 	}
 
-	return(0);
+	return (0);
 }
