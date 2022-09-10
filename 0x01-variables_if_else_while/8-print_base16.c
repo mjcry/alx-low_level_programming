@@ -15,10 +15,10 @@ int main(void)
 		hex++;
 	}
 
-	while (b <= 'f')
+	while (hex1 <= 'f')
 	{
 		putchar(hex1);
-		hex1++
+		hex1++;
 	}
 	putchar(10);
 
