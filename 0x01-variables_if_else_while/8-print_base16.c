@@ -6,20 +6,21 @@
  */
 int main(void)
 {
-	int hex = 0;
+	int hex = '0';
+	int hex1 = 'a';
 
-	while (hex < 16)
+	while (hex <= '9')
 	{
-		if (hex <= 9)
-		{
-			putchar(hex + '0');
-		}
-		else
-		{
-			putchar(hex + 87);
-		}
-		++hex;
+		putchar(hex);
+		hex++;
 	}
+
+	while (b <= 'f')
+	{
+		putchar(hex1);
+		hex1++
+	}
+	putchar(10);
 
 	return (0);
 }
