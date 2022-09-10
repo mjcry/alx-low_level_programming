@@ -2,13 +2,13 @@
 /**
  * main - entry function
  *
- * return: return to zero
+ * Return: return to 0
  *
  */
 int main(void)
 {
 	char low = 97;
-	
+
 	while (low <= 122)
 	{
 		if (low != 101 && low != 113)
