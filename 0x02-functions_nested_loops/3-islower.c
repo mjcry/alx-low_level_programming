@@ -1,24 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry point
- *
  * _islower - its a fuction that checks the lower alphabates.
  *
- * @c - c is the integer decalred.
+ * @c: is an int that is used to find the value of a to z.
  * *
  * Return: Return to Zero
  */
-int main(void)
+int _islower(int c)
 {
-	int _islower(int c)
-	
 	int c;
 
 	if (c >= 'a' && c <= 'z')
-	{
+
 		return (1);
-	}
-	else 
+
+	else
 		return (0);
 }

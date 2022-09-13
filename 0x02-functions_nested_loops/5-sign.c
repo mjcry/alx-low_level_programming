@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - prints a num
- *
+ *@n: the integer that is declared
  * Return: 1 or 0 based on the result
  */
 int print_sign(int n)
