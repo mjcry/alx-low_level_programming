@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include "main.c"
 /**
  * main - main entry point
  *
@@ -7,17 +8,13 @@
  *
  * Return: Returnto zero
  */
-int main(void)
+void print_alphabet(void);
 {
-	void print_alphabet(void);
-	{
-		int n;
+	int n;
 
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			_putchar(n);
-		}
-		_putchar('\n');
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar(n);
 	}
-	return (0);
+	_putchar('\n');
 }
