@@ -1,4 +1,4 @@
-#include "holberton"
+#include "main.h"
 /**
  * jack_bauer - print every min of the day 
  * 
