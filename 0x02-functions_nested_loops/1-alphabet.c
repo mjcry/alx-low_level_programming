@@ -8,7 +8,7 @@
  *
  * Return: Returnto zero
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int n;
 
