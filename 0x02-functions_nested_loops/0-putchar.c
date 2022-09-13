@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Main main Entry Point
  *
@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char *sh = "Holberton";
+	char *sh = "_putchar";
 
 	while (*sh)
 	{
