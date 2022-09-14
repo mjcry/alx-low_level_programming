@@ -4,25 +4,15 @@
 #include "main.h"
 /**
 * main - too print whether a number is positive or negative or zero.
-* @i: its the int decared
+* i - function for finding the poitive or negative
 * Return: Always 0 (Succeess)
 */
-void positive_or_negative(int i);
+int main(void)
 {
-	srand(time(0));
+	int i;
 
-	i = rand() - RAND_MAX / 2;
+	i = 0;
+	positive_or_negative(i);
 
-	if (i > 0)
-	{
-		printf("%d is positive\n", i);
-	}
-	else if (i == 0)
-	{
-		printf("%d is zero\n", i);
-	}
-	else
-	{
-		printf("%d is negative\n", i);
-	}
+	return (0);
 }
