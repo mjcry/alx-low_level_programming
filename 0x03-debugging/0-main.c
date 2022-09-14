@@ -1,25 +1,29 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry point to the program.
- *
- * Return: return to zero.
- */
-int main (void)
+* main - too print whether a number is positive or negative or zero.
+*
+* Return: Always 0 (Succeess)
+*/
+void positive_or_negative(int i);
 {
-	int i = 98;
+	srand(time(0));
 
-	if (i < '0')
+	i = rand() - RAND_MAX / 2;
+
+	if (i > 0)
 	{
-		printf("This is a positive number \n %d", i);
+		printf("%d is positive\n", i);
 	}
-	else if (i == '0')
+	else if (i == 0)
 	{
-		printf("This number is zero\n%d", i);
+		printf("%d is zero\n", i);
 	}
 	else
 	{
-		printf("This is a negative number \n%d", i);
+		printf("%d is negative\n", i);
 	}
 	return (0);
 }
