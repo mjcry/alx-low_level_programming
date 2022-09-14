@@ -4,7 +4,7 @@
 #include "main.h"
 /**
 * main - too print whether a number is positive or negative or zero.
-*
+* @i: its the int decared
 * Return: Always 0 (Succeess)
 */
 void positive_or_negative(int i);
@@ -25,5 +25,4 @@ void positive_or_negative(int i);
 	{
 		printf("%d is negative\n", i);
 	}
-	return (0);
 }
