@@ -1,15 +1,13 @@
 #include "main.h"
 /**
- * _isdigit - function
+ * mul - multply fuction
  *
- * @c: parameter
+ * @a: parameter of 1
  *
- * Return: return Value
+ * @b: parameter of the second number
+ * Return: Return the value to zero
  */
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	else
-		return (0);
+	return  (a * b);
 }
