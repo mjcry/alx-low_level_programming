@@ -1,22 +1,19 @@
-#include <stdio.h>
+#include"main.h"
+
 /**
- * _puts - entry point
- * @str: strings thats statement
- * Return: To zero
- */
+ * _puts - prints a string, followed by a newline to stdout
+ *
+ * @str: string parameter to print
+ *
+ * Return: Nothing
+*/
+
 void _puts(char *str)
 {
-	int n = 0;
-
 	while (*str != '\0')
 	{
-		putchar(*str);
-		str = str + 1;
+		_putchar(*str + 0);
+		++str;
 	}
-	char *str;
-
-	str = "";
-	_puts(str);
-	return (0);
-	}
+	_putchar('\n');
 }
