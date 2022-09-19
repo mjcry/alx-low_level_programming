@@ -1,19 +1,21 @@
-#include "main.h"
-
-/**
- * _strcmp - a function that compares two strings
- * @s1: input one
- * @s2: input two
- * Return: Always 0 (Success)
- */
-int _strcmp(char *s1, char *s2)
+void print_rev(char *s)
 {
-	int i;
+	int n = 0;
 
-	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
+	/* Count how many characters there are in the string */
+	while (*s != '\0')
 	{
-		if (s1[i] != s2[i])
-			return (s1[i] - s2[i]);
+		n = n + 1;
+		s = s + 1;
 	}
-	return (0);
+
+	/* Use the last value of n to reverse count and
+	* start to print from the last value to s (direction of the pointer *s)
+	*/
+	while (n >= 0)
+	{
+		putchar(*s);
+		s = s - 1;
+		n = n - 1;
+	}
 }
