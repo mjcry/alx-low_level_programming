@@ -1,17 +1,18 @@
-include <stdio.h>
+#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point with arguments
+ * main - prints it name plus linebreak
  *
- * @argc: counter of arguments passed
- * @argv: vector of strings with arguments passed
+ * @argc: number of arg typed
  *
- * Return: Always 0 (Success)
+ * @argv: array pointing to arg
  *
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
+	argc = 0;
 
-	printf("%s\n", argv[0]);
+	printf("%s\n, argv[argc]");
 	return (0);
 }
